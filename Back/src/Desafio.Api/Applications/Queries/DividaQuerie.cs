@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Desafio.Api.Applications.Dtos;
-using Desafio.Domain.Interfaces;
+using ControleDeDividas.Api.Applications.Dtos;
+using ControleDeDividas.Domain.Interfaces;
 
-namespace Desafio.Api.Applications.Queries
+namespace ControleDeDividas.Api.Applications.Queries
 {
     public class DividaQuerie : IDividaQuerie
     {

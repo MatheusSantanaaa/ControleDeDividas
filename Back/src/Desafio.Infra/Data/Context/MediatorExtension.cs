@@ -1,7 +1,7 @@
-﻿using Desafio.Core.Communication.Mediator;
-using Desafio.Core.DomainObjects;
+﻿using ControleDeDividas.Core.Communication.Mediator;
+using ControleDeDividas.Core.DomainObjects;
 
-namespace Desafio.Infra.Data.Context
+namespace ControleDeDividas.Infra.Data.Context
 {
     public static class MediatorExtension
     {

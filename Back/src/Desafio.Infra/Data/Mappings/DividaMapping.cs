@@ -1,7 +1,7 @@
-﻿using Desafio.Domain.Models;
+﻿using ControleDeDividas.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-namespace Desafio.Infra.Data.Mappings
+namespace ControleDeDividas.Infra.Data.Mappings
 {
     public class DividaMapping : IEntityTypeConfiguration<Divida>
     {
@@ -34,7 +34,7 @@ namespace Desafio.Infra.Data.Mappings
             // 1 : N => Divida : Parcelas
             builder.HasMany(c => c.Parcelas)
                 .WithOne(c => c.Divida)
-                .HasForeignKey(c => c.DividaId );
+                .HasForeignKey(c => c.DividaId);
 
             builder.ToTable("Dividas");
         }

@@ -1,8 +1,8 @@
-﻿using Desafio.Domain.Models;
-using Desafio.UnitTests.Domain.Fixtures;
+﻿using ControleDeDividas.Domain.Models;
+using ControleDeDividas.UnitTests.Domain.Fixtures;
 using Xunit;
 
-namespace Desafio.UnitTests.Domain
+namespace ControleDeDividas.UnitTests.Domain
 {
     public class DividaTest
     {
@@ -66,7 +66,7 @@ namespace Desafio.UnitTests.Domain
             divida.AdicionarParcelas(parcelas);
 
             //Assert
-            Assert.Equal((decimal)1250, divida.ValorOriginal);
+            Assert.Equal(1250, divida.ValorOriginal);
         }
 
 

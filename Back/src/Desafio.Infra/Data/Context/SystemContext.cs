@@ -1,10 +1,10 @@
-﻿using Desafio.Core.Communication.Mediator;
-using Desafio.Core.Communication.Messages;
-using Desafio.Core.Data;
-using Desafio.Domain.Models;
+﻿using ControleDeDividas.Core.Communication.Mediator;
+using ControleDeDividas.Core.Communication.Messages;
+using ControleDeDividas.Core.Data;
+using ControleDeDividas.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Desafio.Infra.Data.Context
+namespace ControleDeDividas.Infra.Data.Context
 {
     public class SystemContext : DbContext, IUnitOfWork
     {

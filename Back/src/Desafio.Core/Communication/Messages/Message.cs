@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafio.Core.Communication.Messages
+namespace ControleDeDividas.Core.Communication.Messages
 {
     public abstract class Message
     {

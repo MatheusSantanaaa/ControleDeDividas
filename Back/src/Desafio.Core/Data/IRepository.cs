@@ -1,6 +1,6 @@
-﻿using Desafio.Core.DomainObjects;
+﻿using ControleDeDividas.Core.DomainObjects;
 
-namespace Desafio.Core.Data
+namespace ControleDeDividas.Core.Data
 {
     public interface IRepository<T> where T : IAggregateRoot
     {

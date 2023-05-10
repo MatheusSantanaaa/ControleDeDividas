@@ -1,6 +1,6 @@
-﻿using Desafio.Core.Communication.Messages;
+﻿using ControleDeDividas.Core.Communication.Messages;
 
-namespace Desafio.Core.DomainObjects
+namespace ControleDeDividas.Core.DomainObjects
 {
     public abstract class Entity
     {

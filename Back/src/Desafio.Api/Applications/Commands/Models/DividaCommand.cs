@@ -1,7 +1,7 @@
-﻿using Desafio.Core.Communication.Messages;
-using Desafio.Domain.Models;
+﻿using ControleDeDividas.Core.Communication.Messages;
+using ControleDeDividas.Domain.Models;
 
-namespace Desafio.Api.Applications.Commands.Models
+namespace ControleDeDividas.Api.Applications.Commands.Models
 {
     public class DividaCommand : Command
     {

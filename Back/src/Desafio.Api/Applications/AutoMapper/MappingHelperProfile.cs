@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using Desafio.Api.Applications.Commands.Models;
-using Desafio.Api.Applications.Dtos;
-using Desafio.Domain.Models;
+using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Api.Applications.Dtos;
+using ControleDeDividas.Domain.Models;
 
-namespace Desafio.Api.Applications.AutoMapper
+namespace ControleDeDividas.Api.Applications.AutoMapper
 {
     public class MappingHelperProfile : Profile
     {

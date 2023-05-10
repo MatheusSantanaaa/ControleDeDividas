@@ -1,6 +1,6 @@
-﻿using Desafio.Domain.Models;
+﻿using ControleDeDividas.Domain.Models;
 
-namespace Desafio.Api.Applications.Dtos
+namespace ControleDeDividas.Api.Applications.Dtos
 {
     public class DividaDto
     {

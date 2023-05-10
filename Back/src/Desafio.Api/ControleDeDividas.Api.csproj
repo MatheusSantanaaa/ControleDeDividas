@@ -22,8 +22,8 @@
   </ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Desafio.Core\Desafio.Core.csproj" />
-	  <ProjectReference Include="..\Desafio.Infra\Desafio.Infra.csproj" />
+	  <ProjectReference Include="..\Desafio.Core\ControleDeDividas.Core.csproj" />
+	  <ProjectReference Include="..\Desafio.Infra\ControleDeDividas.Infra.csproj" />
 	</ItemGroup>
 
 </Project>

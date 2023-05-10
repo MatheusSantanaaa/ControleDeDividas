@@ -1,4 +1,4 @@
-﻿namespace Desafio.Core.Data
+﻿namespace ControleDeDividas.Core.Data
 {
     public interface IUnitOfWork
     {

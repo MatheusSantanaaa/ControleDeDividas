@@ -1,12 +1,12 @@
-﻿using Desafio.Core.Data;
-using Desafio.Domain.Models;
+﻿using ControleDeDividas.Core.Data;
+using ControleDeDividas.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafio.Domain.Interfaces
+namespace ControleDeDividas.Domain.Interfaces
 {
     public interface IDividaRepository : IRepository<Divida>
     {

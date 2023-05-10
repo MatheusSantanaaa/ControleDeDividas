@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using Desafio.Api.Applications.Commands.Models;
-using Desafio.Api.Applications.Dtos;
-using Desafio.Api.Applications.Queries;
-using Desafio.Core.Communication.Mediator;
+using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Api.Applications.Dtos;
+using ControleDeDividas.Api.Applications.Queries;
+using ControleDeDividas.Core.Communication.Mediator;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Desafio.Api.Controllers
+namespace ControleDeDividas.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

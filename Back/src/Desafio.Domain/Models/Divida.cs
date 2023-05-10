@@ -1,7 +1,7 @@
-﻿using Desafio.Core.DomainObjects;
+﻿using ControleDeDividas.Core.DomainObjects;
 using System.Runtime.InteropServices;
 
-namespace Desafio.Domain.Models
+namespace ControleDeDividas.Domain.Models
 {
     public class Divida : Entity, IAggregateRoot
     {

@@ -1,7 +1,7 @@
-﻿using Desafio.Infra.Data.Context;
+﻿using ControleDeDividas.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Desafio.Api.Configurations
+namespace ControleDeDividas.Api.Configurations
 {
     public static class DatabaseConfig
     {

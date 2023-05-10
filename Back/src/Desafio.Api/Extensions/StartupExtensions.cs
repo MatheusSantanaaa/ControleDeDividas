@@ -1,4 +1,4 @@
-﻿namespace Desafio.Api.Extensions
+﻿namespace ControleDeDividas.Api.Extensions
 {
     public static class StartupExtensions
     {

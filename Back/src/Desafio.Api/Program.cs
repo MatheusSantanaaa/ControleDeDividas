@@ -1,5 +1,5 @@
-using Desafio.Api;
-using Desafio.Api.Extensions;
+using ControleDeDividas.Api;
+using ControleDeDividas.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

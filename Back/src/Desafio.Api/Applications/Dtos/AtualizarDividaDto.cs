@@ -1,4 +1,4 @@
-﻿namespace Desafio.Api.Applications.Dtos
+﻿namespace ControleDeDividas.Api.Applications.Dtos
 {
     public class AtualizarDividaDto
     {

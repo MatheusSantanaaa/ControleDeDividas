@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Desafio.Core.Utils
+namespace ControleDeDividas.Core.Utils
 {
     public static class CpfValidacao
     {

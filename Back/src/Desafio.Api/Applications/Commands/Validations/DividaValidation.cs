@@ -1,8 +1,8 @@
-﻿using Desafio.Api.Applications.Commands.Models;
-using Desafio.Core.Utils;
+﻿using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Core.Utils;
 using FluentValidation;
 
-namespace Desafio.Api.Applications.Commands.Validations
+namespace ControleDeDividas.Api.Applications.Commands.Validations
 {
     public abstract class DividaValidation<T> : AbstractValidator<T> where T : DividaCommand
     {

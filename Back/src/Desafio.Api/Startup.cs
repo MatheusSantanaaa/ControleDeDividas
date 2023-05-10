@@ -1,8 +1,8 @@
-﻿using Desafio.Api.Configurations;
-using Desafio.Api.Extensions;
+﻿using ControleDeDividas.Api.Configurations;
+using ControleDeDividas.Api.Extensions;
 using MediatR;
 
-namespace Desafio.Api
+namespace ControleDeDividas.Api
 {
     public interface IStartup
     {
@@ -15,7 +15,7 @@ namespace Desafio.Api
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration= configuration;
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }

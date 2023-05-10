@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Desafio.IntegrationTests.Configurations
+namespace ControleDeDividas.IntegrationTests.Configurations
 {
     public class DesafioAppFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
     {

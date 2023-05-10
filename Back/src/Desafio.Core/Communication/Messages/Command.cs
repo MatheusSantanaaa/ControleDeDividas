@@ -1,7 +1,7 @@
 ﻿using FluentValidation.Results;
 using MediatR;
 
-namespace Desafio.Core.Communication.Messages
+namespace ControleDeDividas.Core.Communication.Messages
 {
     public abstract class Command : Message, IRequest<ValidationResult>
     {

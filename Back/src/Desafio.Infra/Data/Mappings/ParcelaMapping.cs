@@ -1,7 +1,7 @@
-﻿using Desafio.Domain.Models;
+﻿using ControleDeDividas.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-namespace Desafio.Infra.Data.Mappings
+namespace ControleDeDividas.Infra.Data.Mappings
 {
     public class ParcelaMapping : IEntityTypeConfiguration<Parcela>
     {

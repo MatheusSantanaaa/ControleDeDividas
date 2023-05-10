@@ -1,7 +1,7 @@
-﻿using Desafio.Api.Applications.Commands.Validations;
-using Desafio.Domain.Models;
+﻿using ControleDeDividas.Domain.Models;
+using ControleDeDividas.Api.Applications.Commands.Validations;
 
-namespace Desafio.Api.Applications.Commands.Models
+namespace ControleDeDividas.Api.Applications.Commands.Models
 {
     public class RegistrarDividaCommand : DividaCommand
     {

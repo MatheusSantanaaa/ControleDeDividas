@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Desafio.Core.Communication.Messages
+namespace ControleDeDividas.Core.Communication.Messages
 {
     public abstract class Event : Message, INotification
     {

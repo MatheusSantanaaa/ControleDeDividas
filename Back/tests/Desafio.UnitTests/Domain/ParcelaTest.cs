@@ -1,9 +1,9 @@
-﻿using Desafio.Domain.Models;
+﻿using ControleDeDividas.Domain.Models;
 using Xunit;
 
-namespace Desafio.UnitTests.Domain
+namespace ControleDeDividas.UnitTests.Domain
 {
-    public class ParcelaTest 
+    public class ParcelaTest
     {
         [Fact(DisplayName = "Criar nova Parcela via Fabrica CriarParcela")]
         [Trait("Categoria", "Domain - Parcela")]

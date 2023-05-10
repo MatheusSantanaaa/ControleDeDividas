@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafio.Core.DomainObjects
+namespace ControleDeDividas.Core.DomainObjects
 {
     public interface IAggregateRoot { }
 }

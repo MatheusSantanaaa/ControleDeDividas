@@ -1,8 +1,8 @@
 ﻿using Bogus;
 using Bogus.DataSets;
 using Bogus.Extensions.Brazil;
-using Desafio.Api.Applications.Dtos;
-using Desafio.Domain.Models;
+using ControleDeDividas.Api.Applications.Dtos;
+using ControleDeDividas.Domain.Models;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using System;
 using System.Collections.Generic;
@@ -11,13 +11,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Desafio.UnitTests.Domain.Fixtures
+namespace ControleDeDividas.UnitTests.Domain.Fixtures
 {
 
     [CollectionDefinition(nameof(DividaCollection))]
     public class DividaCollection : ICollectionFixture<DividaTestFixture> { }
-  
-  
+
+
     public class DividaTestFixture
     {
         public string CPF_INVALIDO = "00000000000";
@@ -25,7 +25,7 @@ namespace Desafio.UnitTests.Domain.Fixtures
         private readonly Guid DIVIDA_ID_INEXISTENTE = Guid.Parse("8F7F89EF-E00F-4102-81B1-B561B2C6B49A");
 
         private readonly Faker<Divida> Faker;
-      
+
         public DividaTestFixture()
         {
             Faker = new Faker<Divida>("pt_BR");

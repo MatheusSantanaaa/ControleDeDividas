@@ -1,11 +1,11 @@
-﻿using Desafio.Core.Communication.Mediator;
+﻿using ControleDeDividas.Core.Communication.Mediator;
 using FluentValidation.Results;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Net;
 
-namespace Desafio.Api.Controllers
+namespace ControleDeDividas.Api.Controllers
 {
     [ApiController]
     public class ApiController : ControllerBase

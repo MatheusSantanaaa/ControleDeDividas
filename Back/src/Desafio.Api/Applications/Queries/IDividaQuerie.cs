@@ -1,6 +1,6 @@
-﻿using Desafio.Api.Applications.Dtos;
+﻿using ControleDeDividas.Api.Applications.Dtos;
 
-namespace Desafio.Api.Applications.Queries
+namespace ControleDeDividas.Api.Applications.Queries
 {
     public interface IDividaQuerie
     {

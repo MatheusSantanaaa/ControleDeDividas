@@ -1,7 +1,7 @@
-﻿using Desafio.Core.Data;
+﻿using ControleDeDividas.Core.Data;
 using FluentValidation.Results;
 
-namespace Desafio.Core.Communication.Messages
+namespace ControleDeDividas.Core.Communication.Messages
 {
     public abstract class CommandHandler
     {

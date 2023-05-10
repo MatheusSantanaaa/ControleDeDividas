@@ -1,8 +1,8 @@
-﻿using Desafio.Api.Extensions;
+﻿using ControleDeDividas.Api.Extensions;
 using MediatR;
 using Microsoft.AspNetCore.Rewrite;
 
-namespace Desafio.Api.Configurations
+namespace ControleDeDividas.Api.Configurations
 {
     public static class ApiConfig
     {
@@ -24,7 +24,7 @@ namespace Desafio.Api.Configurations
 
             services.AddEndpointsApiExplorer();
 
-            services.AddSwaggerGen();           
+            services.AddSwaggerGen();
 
         }
 
@@ -47,7 +47,7 @@ namespace Desafio.Api.Configurations
 
             app.UseCors();
 
-            app.UseDeveloperExceptionPage();          
+            app.UseDeveloperExceptionPage();
 
         }
     }

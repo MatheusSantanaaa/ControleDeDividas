@@ -1,4 +1,4 @@
-﻿namespace Desafio.IntegrationTests.Models
+﻿namespace ControleDeDividas.IntegrationTests.Models
 {
     public class ApiResponseError
     {

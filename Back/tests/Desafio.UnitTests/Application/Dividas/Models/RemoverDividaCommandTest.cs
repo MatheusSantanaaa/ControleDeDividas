@@ -1,7 +1,7 @@
-﻿using Desafio.Api.Applications.Commands.Models;
+﻿using ControleDeDividas.Api.Applications.Commands.Models;
 using Xunit;
 
-namespace Desafio.UnitTests.Application.Dividas.Models
+namespace ControleDeDividas.UnitTests.Application.Dividas.Models
 {
     public class RemoverDividaCommandTest
     {

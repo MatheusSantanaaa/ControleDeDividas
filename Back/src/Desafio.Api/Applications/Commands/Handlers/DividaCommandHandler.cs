@@ -1,11 +1,11 @@
-﻿using Desafio.Api.Applications.Commands.Models;
-using Desafio.Core.Communication.Messages;
-using Desafio.Domain.Interfaces;
-using Desafio.Domain.Models;
+﻿using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Core.Communication.Messages;
+using ControleDeDividas.Domain.Interfaces;
+using ControleDeDividas.Domain.Models;
 using FluentValidation.Results;
 using MediatR;
 
-namespace Desafio.Api.Applications.Commands.Handlers
+namespace ControleDeDividas.Api.Applications.Commands.Handlers
 {
     public class DividaCommandHandler : CommandHandler,
         IRequestHandler<RegistrarDividaCommand, ValidationResult>,
@@ -38,7 +38,7 @@ namespace Desafio.Api.Applications.Commands.Handlers
                                                     message.Multa);
 
             var parcelasCriada = CriarParcelas(message, titulo.Id);
-            
+
             titulo.AdicionarParcelas(parcelasCriada);
             _dividaRepository.Adicionar(titulo);
 

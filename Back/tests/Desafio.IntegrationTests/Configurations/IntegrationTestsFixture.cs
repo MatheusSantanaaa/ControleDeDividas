@@ -2,12 +2,8 @@
 using System.Text.Json;
 using System.Text;
 using Xunit;
-using Desafio.Api;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
 
-namespace Desafio.IntegrationTests.Configurations
+namespace ControleDeDividas.IntegrationTests.Configurations
 {
     [CollectionDefinition(nameof(IntegrationApiTestsFixtureCollection))]
     public class IntegrationApiTestsFixtureCollection : ICollectionFixture<IntegrationTestsFixture<Program>> { }

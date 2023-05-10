@@ -1,8 +1,8 @@
-﻿using Desafio.Core.Communication.Messages;
+﻿using ControleDeDividas.Core.Communication.Messages;
 using FluentValidation.Results;
 using MediatR;
 
-namespace Desafio.Core.Communication.Mediator
+namespace ControleDeDividas.Core.Communication.Mediator
 {
     public class MediatorHandler : IMediatorHandler
     {

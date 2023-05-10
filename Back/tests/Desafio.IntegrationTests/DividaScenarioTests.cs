@@ -1,25 +1,10 @@
-﻿using Desafio.Api;
-using Desafio.Api.Applications.Commands.Models;
-using Desafio.Api.Applications.Dtos;
-using Desafio.IntegrationTests.Configurations;
-using Desafio.IntegrationTests.Models;
-using Desafio.UnitTests.Domain.Fixtures;
-using Microsoft.AspNetCore.Hosting;
+﻿using ControleDeDividas.IntegrationTests.Configurations;
+using ControleDeDividas.IntegrationTests.Models;
+using ControleDeDividas.UnitTests.Domain.Fixtures;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Swashbuckle.AspNetCore.Swagger;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 using Xunit;
 
-namespace Desafio.IntegrationTests
+namespace ControleDeDividas.IntegrationTests
 {
     [Collection(nameof(IntegrationApiTestsFixtureCollection))]
     public class DividaScenarioTests : IClassFixture<WebApplicationFactory<Program>>
@@ -147,7 +132,7 @@ namespace Desafio.IntegrationTests
             var parcelas = _dividaTestFixture.ObterParcela(faker.Id);
 
             var divida = _dividaTestFixture.GerarDividaCompletaValido(faker, parcelas);
-         
+
 
             // Act
             using var response = await _testsFixture.Client.PutAsync("/api/Divida/atualizar", _testsFixture.MontarContent(divida));
@@ -212,7 +197,7 @@ namespace Desafio.IntegrationTests
             // Assert
             Assert.Equal(400, error.status);
             Assert.Contains("O Id é obrigatório.", error.errors);
-            
+
         }
 
         [Fact(DisplayName = "Remover Divida com Erro Id Inexistente")]

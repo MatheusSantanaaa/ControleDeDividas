@@ -1,9 +1,9 @@
-﻿using Desafio.Api.Applications.Commands.Models;
-using Desafio.Domain.Models;
-using Desafio.UnitTests.Domain.Fixtures;
+﻿using ControleDeDividas.Domain.Models;
+using ControleDeDividas.UnitTests.Domain.Fixtures;
+using ControleDeDividas.Api.Applications.Commands.Models;
 using Xunit;
 
-namespace Desafio.UnitTests.Application.Dividas.Models
+namespace ControleDeDividas.UnitTests.Application.Dividas.Models
 {
     public class AtualizarDividaCommandTest
     {

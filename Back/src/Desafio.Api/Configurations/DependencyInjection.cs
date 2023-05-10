@@ -1,15 +1,15 @@
-﻿using Desafio.Api.Applications.AutoMapper;
-using Desafio.Api.Applications.Commands.Handlers;
-using Desafio.Api.Applications.Commands.Models;
-using Desafio.Api.Applications.Queries;
-using Desafio.Core.Communication.Mediator;
-using Desafio.Domain.Interfaces;
-using Desafio.Infra.Data.Context;
-using Desafio.Infra.Data.Repository;
+﻿using ControleDeDividas.Api.Applications.AutoMapper;
+using ControleDeDividas.Api.Applications.Commands.Handlers;
+using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Api.Applications.Queries;
+using ControleDeDividas.Core.Communication.Mediator;
+using ControleDeDividas.Domain.Interfaces;
+using ControleDeDividas.Infra.Data.Context;
+using ControleDeDividas.Infra.Data.Repository;
 using FluentValidation.Results;
 using MediatR;
 
-namespace Desafio.Api.Configurations
+namespace ControleDeDividas.Api.Configurations
 {
     public static class DependencyInjection
     {

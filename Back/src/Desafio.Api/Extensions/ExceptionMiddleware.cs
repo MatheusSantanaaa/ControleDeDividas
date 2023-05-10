@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Desafio.Api.Extensions
+namespace ControleDeDividas.Api.Extensions
 {
     public class ExceptionMiddleware
     {

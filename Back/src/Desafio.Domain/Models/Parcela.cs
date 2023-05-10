@@ -1,6 +1,6 @@
-﻿using Desafio.Core.DomainObjects;
+﻿using ControleDeDividas.Core.DomainObjects;
 
-namespace Desafio.Domain.Models
+namespace ControleDeDividas.Domain.Models
 {
     public class Parcela : Entity
     {
@@ -41,7 +41,7 @@ namespace Desafio.Domain.Models
             return diasAtraso;
         }
 
-        public static class Factory 
+        public static class Factory
         {
             public static Parcela CriarParcela(
                 Guid dividaId,

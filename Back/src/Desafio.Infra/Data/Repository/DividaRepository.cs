@@ -1,10 +1,10 @@
-﻿using Desafio.Core.Data;
-using Desafio.Domain.Interfaces;
-using Desafio.Domain.Models;
-using Desafio.Infra.Data.Context;
+﻿using ControleDeDividas.Core.Data;
+using ControleDeDividas.Domain.Interfaces;
+using ControleDeDividas.Domain.Models;
+using ControleDeDividas.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Desafio.Infra.Data.Repository
+namespace ControleDeDividas.Infra.Data.Repository
 {
     public class DividaRepository : IDividaRepository
     {

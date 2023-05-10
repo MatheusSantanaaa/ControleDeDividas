@@ -1,14 +1,13 @@
-﻿using Bogus;
-using Desafio.Api.Applications.Commands.Handlers;
-using Desafio.Api.Applications.Commands.Models;
-using Desafio.Domain.Interfaces;
-using Desafio.Domain.Models;
-using Desafio.UnitTests.Domain.Fixtures;
+﻿using ControleDeDividas.Api.Applications.Commands.Handlers;
+using ControleDeDividas.Api.Applications.Commands.Models;
+using ControleDeDividas.Domain.Interfaces;
+using ControleDeDividas.Domain.Models;
+using ControleDeDividas.UnitTests.Domain.Fixtures;
 using Moq;
 using Moq.AutoMock;
 using Xunit;
 
-namespace Desafio.UnitTests.Application.Dividas.Handler
+namespace ControleDeDividas.UnitTests.Application.Dividas.Handler
 {
     [Collection(nameof(DividaCollection))]
     public class DividaCommandHandlerTest
@@ -75,7 +74,7 @@ namespace Desafio.UnitTests.Application.Dividas.Handler
             // Assert
             Assert.Contains("O Cpf informado, já foi cadastrado!", result.ToString());
         }
-        
+
         #endregion
 
         #region Remover

@@ -1,6 +1,6 @@
-﻿using Desafio.Api.Applications.Commands.Models;
+﻿using ControleDeDividas.Api.Applications.Commands.Models;
 
-namespace Desafio.Api.Applications.Commands.Validations
+namespace ControleDeDividas.Api.Applications.Commands.Validations
 {
     public class RemoverDividaCommandValidation : DividaValidation<RemoverDividaCommand>
     {

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -25,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Desafio.Api\Desafio.Api.csproj" />
-    <ProjectReference Include="..\..\src\Desafio.Domain\Desafio.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Desafio.Api\ControleDeDividas.Api.csproj" />
+    <ProjectReference Include="..\..\src\Desafio.Domain\ControleDeDividas.Domain.csproj" />
   </ItemGroup>
 
 </Project>
