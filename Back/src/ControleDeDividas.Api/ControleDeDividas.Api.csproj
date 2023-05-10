@@ -21,9 +21,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\Desafio.Core\ControleDeDividas.Core.csproj" />
-	  <ProjectReference Include="..\Desafio.Infra\ControleDeDividas.Infra.csproj" />
-	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControleDeDividas.Core\ControleDeDividas.Core.csproj" />
+    <ProjectReference Include="..\ControleDeDividas.Infra\ControleDeDividas.Infra.csproj" />
+  </ItemGroup>
 
 </Project>

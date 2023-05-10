@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Desafio.Api\ControleDeDividas.Api.csproj" />
-    <ProjectReference Include="..\Desafio.UnitTests\ControleDeDividas.UnitTests.csproj" />
+    <ProjectReference Include="..\..\src\ControleDeDividas.Api\ControleDeDividas.Api.csproj" />
+    <ProjectReference Include="..\ControleDeDividas.UnitTests\ControleDeDividas.UnitTests.csproj" />
   </ItemGroup>
 
 </Project>

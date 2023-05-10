@@ -4,18 +4,16 @@ using ControleDeDividas.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Desafio.Infra.Migrations
+namespace ControleDeDividas.Infra.Migrations
 {
     [DbContext(typeof(SystemContext))]
-    [Migration("20230421151358_InitMigration")]
-    partial class InitMigration
+    partial class SystemContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,7 +22,7 @@ namespace Desafio.Infra.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Desafio.Domain.Models.Divida", b =>
+            modelBuilder.Entity("ControleDeDividas.Domain.Models.Divida", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,7 +51,7 @@ namespace Desafio.Infra.Migrations
                     b.ToTable("Dividas", (string)null);
                 });
 
-            modelBuilder.Entity("Desafio.Domain.Models.Parcela", b =>
+            modelBuilder.Entity("ControleDeDividas.Domain.Models.Parcela", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -79,9 +77,9 @@ namespace Desafio.Infra.Migrations
                     b.ToTable("Parcelas", (string)null);
                 });
 
-            modelBuilder.Entity("Desafio.Domain.Models.Parcela", b =>
+            modelBuilder.Entity("ControleDeDividas.Domain.Models.Parcela", b =>
                 {
-                    b.HasOne("Desafio.Domain.Models.Divida", "Divida")
+                    b.HasOne("ControleDeDividas.Domain.Models.Divida", "Divida")
                         .WithMany("Parcelas")
                         .HasForeignKey("DividaId")
                         .IsRequired();
@@ -89,7 +87,7 @@ namespace Desafio.Infra.Migrations
                     b.Navigation("Divida");
                 });
 
-            modelBuilder.Entity("Desafio.Domain.Models.Divida", b =>
+            modelBuilder.Entity("ControleDeDividas.Domain.Models.Divida", b =>
                 {
                     b.Navigation("Parcelas");
                 });

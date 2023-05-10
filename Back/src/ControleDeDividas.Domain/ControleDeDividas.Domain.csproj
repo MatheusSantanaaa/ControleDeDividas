@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Desafio.Core\ControleDeDividas.Core.csproj" />
+    <ProjectReference Include="..\ControleDeDividas.Core\ControleDeDividas.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Desafio.Core\ControleDeDividas.Core.csproj" />
-    <ProjectReference Include="..\Desafio.Domain\ControleDeDividas.Domain.csproj" />
+    <ProjectReference Include="..\ControleDeDividas.Core\ControleDeDividas.Core.csproj" />
+    <ProjectReference Include="..\ControleDeDividas.Domain\ControleDeDividas.Domain.csproj" />
   </ItemGroup>
 
 </Project>
